@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Umar Muhammad | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #f8fafc;
+            --text-color: #1e293b;
+            --light-text: #f8fafc;
+            --accent-color: #1e40af;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Quicksand', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            line-height: 1.8;
+            background-color: #f9fafb;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: var(--light-text);
+            padding: 4rem 1rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 2.8rem;
+            margin: 0;
+            position: relative;
+            display: inline-block;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--light-text);
+            border-radius: 2px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .about-section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .about-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2 {
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .about-section p {
+            margin: 1.5rem 0;
+            font-size: 1.1rem;
+            text-align: left;
+        }
+
+        .highlight {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin: 2rem auto;
+            padding: 0.75rem 1.5rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .about-section {
+                padding: 1.5rem;
+            }
+            
+            .about-section p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>About Me</h1>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h2>My Mission</h2>
+            <p>
+                Welcome to my portfolio. I'm <span class="highlight">Umar Muhammad</span>, a passionate web developer dedicated to turning innovative ideas into digital reality. I specialize in creating user-friendly, responsive, and visually captivating websites that help businesses stand out in the digital landscape.
+            </p>
+            <p>
+                With expertise in modern web technologies, I bridge the gap between creative design and technical implementation to deliver exceptional results that drive engagement and growth.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>My Approach</h2>
+            <p>
+                I believe in a <span class="highlight">client-centric approach</span> to development. Every project begins with understanding your unique needs and goals, ensuring the final product is tailored to your specific requirements.
+            </p>
+            <p>
+                My process is collaborative and transparent, focused on delivering solutions that exceed expectations. From initial concept to final launch, I work closely with clients to bring visions to life with precision and creativity.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>My Commitment</h2>
+            <p>
+                My dedication to quality and innovation drives me to stay ahead of industry trends and adopt the latest technologies. I take pride in solving complex problems and creating seamless user experiences.
+            </p>
+            <p>
+                Whether you're a small business, startup, or established enterprise, I'm committed to helping you succeed online. <span class="highlight">Let's build something amazing together.</span>
+            </p>
+        </section>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">← Back to Portfolio</a>
+        </div>
+    </main>
+</body>
+</html>

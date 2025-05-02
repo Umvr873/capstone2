@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Umar Sani | Web Developer Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --gray: #95a5a6;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 1rem;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--secondary);
+            border-bottom: 1px solid var(--light);
+            padding-bottom: 0.5rem;
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--secondary);
+            margin-left: 2rem;
+        }
+
+        .contact-info {
+            font-style: italic;
+            color: var(--gray);
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .certificate {
+            width: 150px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .certificate img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--light);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            img.profile {
+                margin: 1rem 0 0 0;
+            }
+            
+            .certificates {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>MOHAMMED UMAR SANI</h1>
+            <p class="contact-info">Web Developer | Computer Science Student</p>
+        </div>
+        <img src="./umvrss/myphoto.jpeg" alt="Profile photo of Mohammed Umar Sani" class="profile">
+    </header>
+
+    <section>
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>Enthusiastic and committed aspiring web developer with a solid foundation in HTML, CSS, and JavaScript. Currently expanding skills in both front-end and back-end technologies through academic studies and personal projects. Passionate about creating functional, accessible, and visually appealing web applications.</p>
+    </section>
+
+    <section>
+        <h2>EDUCATION</h2>
+        <h3>B.Sc Computer Science</h3>
+        <p><a href="https://www.google.com/maps/place/Mewar+International+University/" target="_blank">Mewar International University</a>, Nasarawa, Nigeria</p>
+        <p>September 2022 - Present</p>
+    </section>
+
+    <section>
+        <h2>SKILLS</h2>
+        <ul>
+            <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript</li>
+            <li><strong>Programming:</strong> Python, C++</li>
+            <li><strong>IT Fundamentals:</strong> Google IT Automation</li>
+            <li><strong>Security:</strong> Cybersecurity Awareness</li>
+            <li><strong>Problem Solving:</strong> Data Structures & Algorithms</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>TRAINING & CERTIFICATIONS</h2>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="./umvrss/mycertificate.png" alt="Cybersecurity Certificate">
+                <p>Cybersecurity & Ethical Hacking Training</p>
+            </div>
+            <div class="certificate">
+                <img src="./umvrss/WhatsApp Image 2024-08-10 at 20.48.26.jpeg" alt="NCC Certificate">
+                <p>Nigerian Communication Commission Program</p>
+            </div>
+        </div>
+        <ul>
+            <li>Member, Nigerian Computer Society (NCS)</li>
+            <li>Google IT Automation with Python (Coursera)</li>
+            <li>Web Development Program Participant</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>PROJECTS</h2>
+        <ul>
+            <li><a href="./umvrss/BUFFDAY.html">Birthday Invite Project</a> - HTML/CSS practice project</li>
+            <li><a href="./umvrss/mrank.html">Movie Ranking Project</a> - Basic web development exercise</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact Me</a>
+        </div>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Mohammed Umar Sani</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional portfolio of Umar Muhammad, a skilled web developer">
+    <title>Umar Muhammad | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Preload important resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./pics/favicon.png">
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="container-1">
+      <h1 class="cursive">I'm Umar Muhammad</h1>
+      <h1>Web Developer</h1>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container-2">
+      <div class="container py-5 text-center">
+        <img
+          class="myimg"
+          src="./pics/WhatsApp Image 2024-09-14 at 22.35.13.jpeg"
+          alt="Umar Muhammad portrait"
+          loading="lazy"
+        />
+        <h1 class="mb-3">HELLO</h1>
+        <p class="col-lg-8 mx-auto lead cursive">
+          I'm a passionate web developer dedicated to turning your ideas into 
+          beautiful, functional digital experiences.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <div class="skills-container">
+        <h2 id="h2sk">My Skills</h2>
+        
+        <div class="skill-card">
+          <img class="skill-img" src="./pics/coding.jpeg" alt="Web development" loading="lazy" />
+          <div class="skill-content">
+            <h3>Design & Development</h3>
+            <p>
+              I fell in love with coding because of its endless possibilities. With
+              every line of code, I can bring ideas to life and create something
+              truly unique. The thrill of solving complex problems and seeing
+              projects come to fruition drives my passion for development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>My Projects</h2>
+      <p class="text-center mb-3">Here are some of my recent works</p>
+      
+      <ul>
+        <li>
+          <a href="./mrank.html">Movie Ranking Project</a>
+        </li>
+        <li>
+          <a href="./BUFFDAY.html">Birthday Invite Project</a>
+        </li>
+        <li>
+          <a href="./projects/mycapstone/resume.html">Interactive Resume</a>
+        </li>
+        <li>
+          <a href="./projects/11.3 TinDog Project/tindog.html">
+            TinDog Website Clone
+          </a>
+        </li>
+        <li>
+          <a href="./mondrian.html">Mondrian Art Project</a>
+        </li>
+        <li>
+          <a href="./projects/11.2 Bootstrap Components/door.html">
+            Company Landing Page
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="h33">Ready to bring your ideas to life?</h3>
+      <p>I'm available for freelance work and full-time positions.</p>
+      <a href="./contact.html" class="contact-button">CONTACT ME</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul>
+        <li>
+          <a href="./contact.html">Contact Me</a>
+        </li>
+        <li>
+          <a href="https://x.com/umvr873" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+        <li>
+          <a href="https://github.com/Umvr873" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/umar-muhammad-sani-032497311/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+      </ul>
+      <p>© <span id="year"></span> Umar Sani. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Update copyright year automatically
+      document.getElementById('year').textContent = new Date().getFullYear();
+      
+      
+    </script>
+  </body>
+</html>
